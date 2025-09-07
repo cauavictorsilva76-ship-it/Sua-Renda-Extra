@@ -1,0 +1,103 @@
+,<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Página de Vendas |Sua Renda Extra</title>
+  <meta name="description" content="Conheça o Seu Produto e faça sua compra com segurança pelo Kiwify. Oferta por tempo limitado!" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f172a;
+      --card:#0b1226;
+      --muted:#94a3b8;
+      --text:#e2e8f0;
+      --brand:#22d3ee;
+      --brand-2:#a78bfa;
+      --ok:#34d399;
+      --radius: 18px;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    body{margin:0;background:linear-gradient(180deg,#0b1022,#0f172a);color:var(--text);font-family:Inter, sans-serif;}
+    a{text-decoration:none;color:inherit}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    .btn{display:inline-flex;gap:10px;align-items:center;justify-content:center;padding:14px 22px;border-radius:14px;background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#0b1022;font-weight:700;box-shadow:var(--shadow);transition:.15s}
+    .btn:hover{transform:translateY(-2px);filter:brightness(1.05)}
+    .btn.secondary{background:#111827;color:#e5e7eb;border:1px solid #293041}
+    header{position:sticky;top:0;background:rgba(7,12,26,.6);backdrop-filter:blur(10px);border-bottom:1px solid rgba(148,163,184,.12)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 16px}
+    h1{font-size:44px;margin:12px 0 10px;line-height:1.05}
+    p.lead{font-size:18px;color:var(--muted)}
+    .card{background:linear-gradient(180deg,rgba(17,24,39,.6),rgba(2,6,23,.6));border:1px solid rgba(148,163,184,.15);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+    footer{padding:26px 20px;border-top:1px solid rgba(148,163,184,.12);color:#94a3b8;text-align:center}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div style="font-weight:800">Seu Produto</div>
+      <nav style="display:flex;gap:16px;align-items:center">
+        <a href="#beneficios">Benefícios</a>
+        <a href="#preco">Preço</a>
+        <a href="#faq">Dúvidas</a>
+        <a class="btn" href="https://pay.kiwify.com.br/sUqnazH?afid=B7oTJAgw" target="_blank" rel="noopener noreferrer">Comprar agora</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>SE VOCÊ NÃO FIZER UMA NOVA RENDA DIGITAL EM 1 MÊS, DEVOLVO SEU DINHEIRO E AINDA TE DOU 100 REAIS NO PIX. <span style="background:linear-gradient(135deg,var(--brand),var(--brand-2));-webkit-background-clip:text;background-clip:text;color:transparent"></span>.</h1>
+      <p class="lead">SEM PRECISAR APARECER, PELO CELULAR E DE FORMA SIMPLES.</p>
+      <div style="margin-top:20px;display:flex;gap:12px;flex-wrap:wrap">
+        <a class="btn" href="https://pay.kiwify.com.br/sUqnazH?afid=B7oTJAgw" target="_blank" rel="noopener noreferrer">Quero garantir minha vaga</a>
+        <a class="btn secondary" href="#beneficios">Quero ver mais detalhes</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="beneficios" class="section">
+    <div class="container">
+      <h2>Por que escolher o <span style="color:var(--brand)">nosso Produto</span>?</h2>
+      <div class="card" style="margin-top:14px">
+        <p>✔ Estratégias para resultados rápidos</p>
+        <p>✔ Assista as aulas de onde quiser</p>
+        <p>✔ O passo a passo para vender todos os dias</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="preco" class="section">
+    <div class="container card">
+      <h2>Entre hoje com preço especial</h2>
+      <p class="lead">Garanta acesso imediato e todos os bônus disponíveis nesta página.</p>
+      <div style="margin-top:16px;display:flex;align-items:end;gap:12px">
+        <div style="font-size:56px;font-weight:800">R$ 97</div>
+        <div style="color:#94a3b8">ou 12x no cartão*</div>
+      </div>
+      <p class="lead">Pagamento processado pelo Kiwify</p>
+      <a class="btn" style="margin-top:12px;width:100%" href="https://pay.kiwify.com.br/sUqnazH?afid=B7oTJAgw" target="_blank" rel="noopener noreferrer">Comprar agora</a>
+      <p style="font-size:12px;color:#94a3b8;margin-top:8px">*Condições de parcelamento podem variar conforme o Kiwify.</p>
+    </div>
+  </section>
+
+  <section id="faq" class="section">
+    <div class="container">
+      <h2>Perguntas Frequentes</h2>
+      <div class="card">
+        <p><strong>Como recebo acesso após a compra?</strong><br>Você receberá um e-mail do Kiwify com seu login e instruções imediatamente após o pagamento.</p>
+        <p><strong>Existe garantia?</strong><br>Sim! Você tem 7 dias para experimentar. Se não gostar, é só solicitar o reembolso.</p>
+        <p><strong>Quais formas de pagamento são aceitas?</strong><br>Cartão de crédito, boleto e Pix (sujeito às opções exibidas no checkout do Kiwify).</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Sua Renda Extra. Todos os direitos reservados.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
